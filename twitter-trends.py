@@ -14,6 +14,9 @@ twitter = Twitter()
 # other localised trends can be specified by looking up WOE IDs:
 #   http://developer.yahoo.com/geo/geoplanet/
 # twitter API docs: https://dev.twitter.com/docs/api/1/get/trends/%3Awoeid
+# Vietnam 23424984
+# New York 2347591
+# US 23424977
 results = twitter.trends._woeid(_woeid = 1)
 
 print "GLOBAL TRENDS"
